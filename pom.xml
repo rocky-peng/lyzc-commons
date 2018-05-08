@@ -183,8 +183,6 @@
 
     <build>
         <plugins>
-
-            <!--编译插件，主要用来解决GBK字符集编码问题-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
