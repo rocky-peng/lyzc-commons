@@ -6,8 +6,7 @@ import java.util.Map;
 
 /**
  * @author pengqingsong
- * @date 09/12/2017
- * @desc
+ * 09/12/2017
  */
 @Data
 public class RequestLog {

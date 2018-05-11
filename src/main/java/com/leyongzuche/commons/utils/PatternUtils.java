@@ -5,9 +5,10 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.regex.Pattern;
 
 /**
+ * 一些公共的正则表达式
+ *
  * @author pengqingsong
- * @date 09/09/2017
- * @desc 一些公共的正则表达式
+ * 09/09/2017
  */
 public class PatternUtils {
 

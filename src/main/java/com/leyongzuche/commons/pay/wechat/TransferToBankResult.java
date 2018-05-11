@@ -5,8 +5,7 @@ import lombok.ToString;
 
 /**
  * @author pengqingsong
- * @date 02/02/2018
- * @desc
+ * 02/02/2018
  */
 @Data
 @ToString

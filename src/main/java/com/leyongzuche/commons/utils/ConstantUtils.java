@@ -13,9 +13,10 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 常量工具类
+ *
  * @author pengqingsong
- * @date 11/09/2017
- * @desc 常量工具类
+ * 11/09/2017
  */
 public class ConstantUtils {
 
@@ -34,16 +35,7 @@ public class ConstantUtils {
     public static final String RECHARGE_ORDER_PREFIX = "ly-recharge-";
 
     public static final ThreadPoolExecutor EXECUTORS;
-
-    static {
-        EXECUTORS = new ThreadPoolExecutor(100, 100,
-                1L, TimeUnit.HOURS,
-                new LinkedBlockingQueue<Runnable>());
-        EXECUTORS.allowCoreThreadTimeOut(true);
-    }
-
     public static final ThreadLocal<BASE64Encoder> BASE_64_ENCODER_THREAD_LOCAL = ThreadLocal.withInitial(() -> new BASE64Encoder());
-
     public static final ThreadLocal<OkHttpClient> OK_HTTP_CLIENT_THREAD_LOCAL = ThreadLocal.withInitial(() -> {
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
                 .readTimeout(60, TimeUnit.SECONDS)
@@ -51,7 +43,6 @@ public class ConstantUtils {
                 .writeTimeout(10, TimeUnit.SECONDS).build();
         return okHttpClient;
     });
-
     public static final ThreadLocal<OkHttpClient> OK_HTTP_CLIENT_WITH_SSL_THREAD_LOCAL = ThreadLocal.withInitial(() -> {
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
                 .readTimeout(60, TimeUnit.SECONDS)
@@ -60,6 +51,13 @@ public class ConstantUtils {
                 .writeTimeout(10, TimeUnit.SECONDS).build();
         return okHttpClient;
     });
+
+    static {
+        EXECUTORS = new ThreadPoolExecutor(100, 100,
+                1L, TimeUnit.HOURS,
+                new LinkedBlockingQueue<Runnable>());
+        EXECUTORS.allowCoreThreadTimeOut(true);
+    }
 
     private static SSLSocketFactory getSSLSocketFactory() {
         try {

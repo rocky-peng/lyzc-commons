@@ -14,14 +14,13 @@ import java.util.Objects;
 @Data
 public class GeneralResponse<T> implements Serializable {
 
-    private static final String SUCCESS_MSG = "success";
-    private static final String UNKNOWN_EXCEPTION = "unknown exception";
     public static final String NO_PRIVILEGE_MSG = "您无权进行此操作";
-    private static final String SERVER_ERROR = "服务器异常,请稍后再试";
     public static final String LOGIN_REQUIRED = "请先登录";
-
-    public static final GeneralResponse EMPTY_SUCCESS_RESPONSE = new GeneralResponse(SUCCESS_MSG);
     public static final GeneralResponse NO_PRIVILEGE_RESPONSE = new GeneralResponse(NO_PRIVILEGE_MSG);
+    private static final String SUCCESS_MSG = "success";
+    public static final GeneralResponse EMPTY_SUCCESS_RESPONSE = new GeneralResponse(SUCCESS_MSG);
+    private static final String UNKNOWN_EXCEPTION = "unknown exception";
+    private static final String SERVER_ERROR = "服务器异常,请稍后再试";
     public static final GeneralResponse SERVER_ERROR_RESPONSE = new GeneralResponse(SERVER_ERROR);
     /**
      * 辅助消息，如果为success表示请求处理成功，否则说明请求处理不成功

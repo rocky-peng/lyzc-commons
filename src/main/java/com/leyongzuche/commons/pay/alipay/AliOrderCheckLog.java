@@ -7,8 +7,7 @@ import java.util.Map;
 
 /**
  * @author pengqingsong
- * @date 12/09/2017
- * @desc
+ * 12/09/2017
  */
 @Data
 final class AliOrderCheckLog {

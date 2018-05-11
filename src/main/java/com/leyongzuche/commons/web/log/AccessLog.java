@@ -6,8 +6,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author pengqingsong
- * @date 09/12/2017
- * @desc
+ * 09/12/2017
  */
 @Data
 public class AccessLog {

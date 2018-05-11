@@ -1,10 +1,10 @@
 package com.leyongzuche.commons.pay.wechat;
 
-import com.leyongzuche.commons.utils.JsonUtils;
 import com.leyongzuche.commons.encrpt.RSAEncrypt;
 import com.leyongzuche.commons.pay.PayBusinessCallback;
 import com.leyongzuche.commons.pay.PayTypeEnum;
 import com.leyongzuche.commons.utils.HttpRequestUtils;
+import com.leyongzuche.commons.utils.JsonUtils;
 import com.leyongzuche.commons.utils.MiscUtils;
 import lombok.Data;
 import lombok.Setter;
@@ -21,8 +21,7 @@ import java.util.Map;
 
 /**
  * @author pengqingsong
- * @date 18/10/2017
- * @desc
+ * 18/10/2017
  */
 @Slf4j
 public class WeChatPay implements InitializingBean {
@@ -43,13 +42,13 @@ public class WeChatPay implements InitializingBean {
         doInit();
     }
 
+    public WeChatPay() {
+
+    }
+
     private void doInit() {
         this.weChatPayRequest = new WeChatPayRequest(config);
         rsaEncrypt = buildRsaEncrypt(config);
-    }
-
-    public WeChatPay() {
-
     }
 
     public void setConfig(WeChatPayConfig config) {

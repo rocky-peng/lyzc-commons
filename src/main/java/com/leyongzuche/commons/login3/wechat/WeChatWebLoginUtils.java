@@ -11,8 +11,7 @@ import java.util.Map;
 
 /**
  * @author pengqingsong
- * @date 26/09/2017
- * @desc
+ * 26/09/2017
  */
 @Slf4j
 public class WeChatWebLoginUtils {

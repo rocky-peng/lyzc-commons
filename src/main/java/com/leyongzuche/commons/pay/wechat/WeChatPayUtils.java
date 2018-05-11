@@ -25,8 +25,7 @@ import java.util.Set;
 
 /**
  * @author pengqingsong
- * @date 01/11/2017
- * @desc
+ * 01/11/2017
  */
 public class WeChatPayUtils {
 

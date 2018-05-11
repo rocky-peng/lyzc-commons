@@ -1,14 +1,13 @@
 package com.leyongzuche.commons.utils;
 
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 
 /**
+ * 时间相关的工具类
+ *
  * @author pengqingsong
- * @date 09/09/2017
- * @desc 时间相关的工具类
+ * 09/09/2017
  */
 public class DateTimeUtils {
 

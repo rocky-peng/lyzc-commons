@@ -8,8 +8,7 @@ import java.util.regex.Pattern;
 
 /**
  * @author pengqingsong
- * @date 29/10/2017
- * @desc
+ * 29/10/2017
  */
 public class MiscUtils {
 

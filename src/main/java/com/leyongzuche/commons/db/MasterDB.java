@@ -2,8 +2,7 @@ package com.leyongzuche.commons.db;
 
 /**
  * @author pengqingsong
- * @date 09/09/2017
- * @desc
+ * 09/09/2017
  */
 public @interface MasterDB {
 

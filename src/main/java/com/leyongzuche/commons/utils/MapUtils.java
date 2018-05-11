@@ -7,9 +7,10 @@ import java.util.Date;
 import java.util.Map;
 
 /**
+ * 从map读取某个key的工具类
+ *
  * @author pengqingsong
- * @date 07/09/2017
- * @desc 从map读取某个key的工具类
+ * 07/09/2017
  */
 public class MapUtils {
 

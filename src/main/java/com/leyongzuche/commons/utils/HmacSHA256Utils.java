@@ -16,8 +16,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * HmacSHA256加密算法工具类
+ *
  * @author pengqingsong
- * @desc HmacSHA256加密算法工具类
  */
 @Slf4j
 public final class HmacSHA256Utils {

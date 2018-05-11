@@ -14,9 +14,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
+ * 将map转换为对象的工具类【并不适合所有场景】
+ *
  * @author pengqingsong
- * @date 16/10/2017
- * @desc 将map转换为对象的工具类【并不适合所有场景】
+ * 16/10/2017
  */
 @Slf4j
 public class MapToBeanUtils {

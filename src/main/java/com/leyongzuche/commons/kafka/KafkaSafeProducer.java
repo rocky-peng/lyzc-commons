@@ -6,8 +6,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 
 /**
  * @author pengqingsong
- * @date 12/10/2017
- * @desc
+ * 12/10/2017
  */
 @Slf4j
 public class KafkaSafeProducer {

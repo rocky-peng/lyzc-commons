@@ -12,8 +12,7 @@ import java.util.concurrent.Executor;
 
 /**
  * @author pengqingsong
- * @date 27/01/2018
- * @desc
+ * 27/01/2018
  */
 @Slf4j
 public class EventBusCenter implements InitializingBean {

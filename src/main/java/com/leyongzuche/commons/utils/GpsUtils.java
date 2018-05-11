@@ -1,11 +1,14 @@
 package com.leyongzuche.commons.utils;
 
 /**
+ * GPS相关的工具类
+ *
  * @author pengqingsong
- * @date 17/10/2017
- * @desc GPS相关的工具类
+ * 17/10/2017
  */
 public class GpsUtils {
+
+    private static double EARTH_RADIUS = 6371.393;
 
     /**
      * 有效的经度范围
@@ -20,9 +23,6 @@ public class GpsUtils {
     public static boolean isValidLatitude(double latitude) {
         return latitude > -85.05112878 && latitude < 85.05112878;
     }
-
-
-    private static double EARTH_RADIUS = 6371.393;
 
     private static double rad(double d) {
         return d * Math.PI / 180.0;

@@ -14,8 +14,7 @@ import java.net.URL;
 
 /**
  * @author pengqingsong
- * @date 12/09/2017
- * @desc
+ * 12/09/2017
  */
 public class QiniuHelper {
 
@@ -87,9 +86,8 @@ public class QiniuHelper {
     }
 
     /**
-     *
      * @param imgUrl
-     * @param cmd  需要带?
+     * @param cmd    需要带?
      * @return
      */
     public String process(String imgUrl, String cmd) {

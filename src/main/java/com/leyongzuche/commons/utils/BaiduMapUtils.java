@@ -8,8 +8,7 @@ import java.util.Map;
 
 /**
  * @author pengqingsong
- * @date 27/01/2018
- * @desc
+ * 27/01/2018
  */
 @Slf4j
 public class BaiduMapUtils {

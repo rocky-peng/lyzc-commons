@@ -2,8 +2,7 @@ package com.leyongzuche.commons.pay;
 
 /**
  * @author pengqingsong
- * @date 12/09/2017
- * @desc
+ * 12/09/2017
  */
 public interface PayBusinessCallback {
     /**

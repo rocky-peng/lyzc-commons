@@ -13,8 +13,7 @@ import java.util.Date;
 
 /**
  * @author pengqingsong
- * @date 08/05/2018
- * @desc
+ * 08/05/2018
  */
 @Slf4j
 public class AccessLogUtils {

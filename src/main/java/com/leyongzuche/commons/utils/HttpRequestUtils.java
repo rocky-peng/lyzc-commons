@@ -5,6 +5,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.RequestBody;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedInputStream;
@@ -20,9 +21,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * http请求工具类
+ *
  * @author pengqingsong
- * @date 07/09/2017
- * @desc http请求工具类
+ * 07/09/2017
  */
 public class HttpRequestUtils {
 

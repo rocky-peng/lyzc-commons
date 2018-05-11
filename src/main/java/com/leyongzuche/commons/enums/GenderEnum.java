@@ -2,8 +2,7 @@ package com.leyongzuche.commons.enums;
 
 /**
  * @author pengqingsong
- * @date 26/09/2017
- * @desc
+ * 26/09/2017
  */
 public enum GenderEnum {
     /**

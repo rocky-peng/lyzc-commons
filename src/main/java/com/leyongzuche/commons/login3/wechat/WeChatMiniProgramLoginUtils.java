@@ -1,8 +1,8 @@
 package com.leyongzuche.commons.login3.wechat;
 
+import com.leyongzuche.commons.enums.GenderEnum;
 import com.leyongzuche.commons.utils.HttpRequestUtils;
 import com.leyongzuche.commons.utils.JsonUtils;
-import com.leyongzuche.commons.enums.GenderEnum;
 import com.leyongzuche.commons.utils.MapUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -11,8 +11,7 @@ import java.util.Map;
 
 /**
  * @author pengqingsong
- * @date 26/09/2017
- * @desc
+ * 26/09/2017
  */
 @Slf4j
 public class WeChatMiniProgramLoginUtils {

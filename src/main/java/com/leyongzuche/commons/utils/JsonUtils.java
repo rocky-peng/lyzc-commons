@@ -7,8 +7,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.List;
 
 /**
+ * json序列化和反序列化工具类
+ *
  * @author pengqingsong
- * @desc json序列化和反序列化工具类
  */
 public final class JsonUtils {
 

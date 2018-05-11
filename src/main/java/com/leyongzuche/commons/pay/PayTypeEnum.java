@@ -4,8 +4,7 @@ import lombok.Getter;
 
 /**
  * @author pengqingsong
- * @date 12/09/2017
- * @desc
+ * 12/09/2017
  */
 public enum PayTypeEnum {
 

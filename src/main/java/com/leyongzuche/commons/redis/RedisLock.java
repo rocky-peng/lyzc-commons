@@ -4,8 +4,7 @@ import redis.clients.jedis.Jedis;
 
 /**
  * @author pengqingsong
- * @date 24/01/2018
- * @desc
+ * 24/01/2018
  */
 public class RedisLock {
 
